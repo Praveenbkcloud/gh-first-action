@@ -6,4 +6,6 @@ jobs:
     steps:
       - name: firstjob
         run: echo "helloworld"
+      - name: print goodbye
+        run: echo "goobye"
       
